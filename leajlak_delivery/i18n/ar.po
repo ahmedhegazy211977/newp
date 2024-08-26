@@ -1,0 +1,193 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* leajlak_delivery
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-25 03:44+0000\n"
+"PO-Revision-Date: 2024-06-25 06:49+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. module: leajlak_delivery
+#: model_terms:ir.ui.view,arch_db:leajlak_delivery.address
+#: model_terms:ir.ui.view,arch_db:leajlak_delivery.address_2
+msgid "<option value=\"\">Country...</option>"
+msgstr "<option value=\"\">الدولة...</option>"
+
+#. module: leajlak_delivery
+#: model_terms:ir.ui.view,arch_db:leajlak_delivery.address_2
+msgid "<option value=\"\">State / Province...</option>"
+msgstr "<option value=\"\">المحافظة...</option>"
+
+#. module: leajlak_delivery
+#: model_terms:ir.ui.view,arch_db:leajlak_delivery.address
+msgid "<option value=\"\">select...</option>"
+msgstr "<option value=\"\">اختيار...</option>"
+
+#. module: leajlak_delivery
+#: model_terms:ir.ui.view,arch_db:leajlak_delivery.view_picking_form
+msgid "Add ForYouDelivery"
+msgstr "اضافة طريقة توصيل لاجلك"
+
+#. module: leajlak_delivery
+#: model:ir.model.fields.selection,name:leajlak_delivery.selection__sale_order__leajlak_delivery_state__cancelled
+#: model:ir.model.fields.selection,name:leajlak_delivery.selection__stock_picking__for_you_state__cancelled
+msgid "Cancelled"
+msgstr "ملغي"
+
+#. module: leajlak_delivery
+#: model:ir.model,name:leajlak_delivery.model_res_config_settings
+msgid "Config Settings"
+msgstr "الاعدادات"
+
+#. module: leajlak_delivery
+#: model:ir.model.fields.selection,name:leajlak_delivery.selection__sale_order__leajlak_delivery_state__delivered
+#: model:ir.model.fields.selection,name:leajlak_delivery.selection__stock_picking__for_you_state__delivered
+msgid "Delivered"
+msgstr "تم التوصيل"
+
+#. module: leajlak_delivery
+#: model_terms:ir.ui.view,arch_db:leajlak_delivery.view_picking_form
+msgid "Delivery State"
+msgstr "حالة التوصيل"
+
+#. module: leajlak_delivery
+#: model_terms:ir.ui.view,arch_db:leajlak_delivery.sale_order_portal_content_inherit_sale_stock
+msgid "Delivery State : <i class=\"fa fa-fw fa-truck\"/> Cancelled"
+msgstr "حالة التوصيل : <i class=\"fa fa-fw fa-truck\"/> ملغي"
+
+#. module: leajlak_delivery
+#: model_terms:ir.ui.view,arch_db:leajlak_delivery.sale_order_portal_content_inherit_sale_stock
+msgid "Delivery State : <i class=\"fa fa-fw fa-truck\"/> Delivered"
+msgstr "حالة التوصيل : <i class=\"fa fa-fw fa-truck\"/> تم التوصيل"
+
+#. module: leajlak_delivery
+#: model_terms:ir.ui.view,arch_db:leajlak_delivery.sale_order_portal_content_inherit_sale_stock
+msgid "Delivery State : <i class=\"fa fa-fw fa-truck\"/> Driver in road to shop"
+msgstr "حالة التوصيل : <i class=\"fa fa-fw fa-truck\"/> السائق في الطريق الى المتجر"
+
+#. module: leajlak_delivery
+#: model_terms:ir.ui.view,arch_db:leajlak_delivery.sale_order_portal_content_inherit_sale_stock
+msgid "Delivery State : <i class=\"fa fa-fw fa-truck\"/> Driver in shop"
+msgstr "حالة التوصيل : <i class=\"fa fa-fw fa-truck\"/> السائق وصل الى المتجر"
+
+#. module: leajlak_delivery
+#: model_terms:ir.ui.view,arch_db:leajlak_delivery.sale_order_portal_content_inherit_sale_stock
+msgid "Delivery State : <i class=\"fa fa-fw fa-truck\"/> Order Picked"
+msgstr "حالة التوصيل : <i class=\"fa fa-fw fa-truck\"/> السائق يحمل الطلب"
+
+#. module: leajlak_delivery
+#: model_terms:ir.ui.view,arch_db:leajlak_delivery.sale_order_portal_content_inherit_sale_stock
+msgid "Delivery State : <i class=\"fa fa-fw fa-truck\"/> Order Shipped"
+msgstr "حالة التوصيل : <i class=\"fa fa-fw fa-truck\"/> تم شحن الطلب"
+
+#. module: leajlak_delivery
+#: model_terms:ir.ui.view,arch_db:leajlak_delivery.sale_order_portal_content_inherit_sale_stock
+msgid "Delivery State : <i class=\"fa fa-fw fa-truck\"/> Preparing"
+msgstr "حالة التوصيل : <i class=\"fa fa-fw fa-truck\"/> تم قبول الطلب"
+
+#. module: leajlak_delivery
+#: model:ir.model.fields,help:leajlak_delivery.field_res_config_settings__foryou_delivery_token
+msgid "For You Auth Token"
+msgstr "توكن التحقق توصيل لاجلك"
+
+#. module: leajlak_delivery
+#: model:ir.model.fields,field_description:leajlak_delivery.field_stock_picking__is_for_you_delivery
+msgid "Is it leajlak delivery"
+msgstr "هل هو توصيل لاجلك"
+
+#. module: leajlak_delivery
+#: model:ir.model.fields,field_description:leajlak_delivery.field_res_config_settings__foryou_delivery_token
+msgid "Leajlak Auth Token"
+msgstr "توكن توصيل لاجلك"
+
+#. module: leajlak_delivery
+#: model:ir.model.fields,field_description:leajlak_delivery.field_delivery_carrier__is_for_you_delivery
+msgid "Leajlak Delivery"
+msgstr "توصيل لاجلك"
+
+#. module: leajlak_delivery
+#: model:ir.model.fields,field_description:leajlak_delivery.field_stock_picking__for_you_state
+msgid "Leajlak Delivery Status"
+msgstr "حالة توصيل لاجلك"
+
+#. module: leajlak_delivery
+#: model_terms:ir.ui.view,arch_db:leajlak_delivery.view_delivery_carrier_form_leajlak_delivery
+msgid "Leajlak does not work if you did not activate this."
+msgstr "توصيل لاجلك لن يعمل في حالة عدم تفعيل هذا الخيار"
+
+#. module: leajlak_delivery
+#: model:ir.model.fields,field_description:leajlak_delivery.field_sale_order__leajlak_delivery_state
+msgid "Leaklak Delivery State"
+msgstr "حالة التوصيل"
+
+#. module: leajlak_delivery
+#: model:ir.model.fields.selection,name:leajlak_delivery.selection__sale_order__leajlak_delivery_state__new
+#: model:ir.model.fields.selection,name:leajlak_delivery.selection__stock_picking__for_you_state__new
+msgid "New"
+msgstr "تم قبول الطلب"
+
+#. module: leajlak_delivery
+#: model:ir.model.fields.selection,name:leajlak_delivery.selection__sale_order__leajlak_delivery_state__picked
+#: model:ir.model.fields.selection,name:leajlak_delivery.selection__stock_picking__for_you_state__picked
+msgid "Order Pikced"
+msgstr "السائق يحمل الطلب"
+
+#. module: leajlak_delivery
+#: model:ir.model.fields.selection,name:leajlak_delivery.selection__sale_order__leajlak_delivery_state__in_shop
+#: model:ir.model.fields.selection,name:leajlak_delivery.selection__stock_picking__for_you_state__in_shop
+msgid "Reached Shop"
+msgstr "السائق وصل الى المتجر"
+
+#. module: leajlak_delivery
+#: model:ir.model,name:leajlak_delivery.model_sale_order
+msgid "Sales Order"
+msgstr "امر البيع"
+
+#. module: leajlak_delivery
+#: model_terms:ir.ui.view,arch_db:leajlak_delivery.res_config_settings_view_form
+msgid "Set leajlak delivery auth token"
+msgstr "قم باعداد توكن لاجلك"
+
+#. module: leajlak_delivery
+#: model:ir.model.fields.selection,name:leajlak_delivery.selection__sale_order__leajlak_delivery_state__shipped
+#: model:ir.model.fields.selection,name:leajlak_delivery.selection__stock_picking__for_you_state__shipped
+msgid "Shipped"
+msgstr "تم شحن الطلب"
+
+#. module: leajlak_delivery
+#: model:ir.model,name:leajlak_delivery.model_delivery_carrier
+msgid "Shipping Methods"
+msgstr "طرق الشحن"
+
+#. module: leajlak_delivery
+#: model:ir.model.fields.selection,name:leajlak_delivery.selection__sale_order__leajlak_delivery_state__ride
+#: model:ir.model.fields.selection,name:leajlak_delivery.selection__stock_picking__for_you_state__ride
+msgid "Start Ride"
+msgstr "السائق في الطريق الى المتجر"
+
+#. module: leajlak_delivery
+#: model:ir.model,name:leajlak_delivery.model_stock_picking
+msgid "Transfer"
+msgstr "شحنه"
+
+#. module: leajlak_delivery
+#: model:delivery.carrier,name:leajlak_delivery.delivery_carrier_foryou
+#: model:product.template,name:leajlak_delivery.product_product_delivery_foryou_product_template
+msgid "توصيل لاجلك"
+msgstr ""
+
+
+#. module: leajlak_delivery
+#: model:ir.model.fields,field_description:leajlak_delivery.field_res_country_state__show_on_website
+msgid "Show on website"
+msgstr "عرض في الموقع"
