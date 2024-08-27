@@ -6,9 +6,6 @@
             <div class="mb-3 field-country">
                 <label for="country">Country</label>
                 <select name="country" id="country" class="form-control form-control-sm" required="required">
-                    <option data-countryCode="SA" value="+966">Saudi Arabia
-                        (+966)
-                    </option>
                     <option data-countryCode="GB" value="+44">UK (+44)
                     </option>
                     <option data-countryCode="US" value="+1">USA (+1)
@@ -467,6 +464,9 @@
                     <option data-countryCode="ST" value="+239">Sao Tome
                         &amp;
                         Principe (+239)
+                    </option>
+                    <option data-countryCode="SA" value="+966">Saudi Arabia
+                        (+966)
                     </option>
                     <option data-countryCode="SN" value="+221">Senegal
                         (+221)
