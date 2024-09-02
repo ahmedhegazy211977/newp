@@ -1,0 +1,48 @@
+<odoo>
+
+    <menuitem id="menu_twilio_otp_test_root"
+              name="Twilio OTP Test Connection"
+    />
+
+    <record id="view_twilio_otp_test_form" model="ir.ui.view">
+        <field name="name">twilio.otp.test.form</field>
+        <field name="model">twilio.test</field>
+        <field name="arch" type="xml">
+            <form string="Twilio OTP Test Connection">
+                <sheet>
+                    <header>
+                        <button name="action_test_twilio_connection" type="object" string="Test Connection"
+                                class="btn-primary"/>
+                        <button string="Cancel" class="btn-secondary" special="cancel"/>
+                    </header>
+                    <group>
+                        <field name="test_phone_number"/>
+                        <field name="test_message" readonly="1"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <record id="view_twilio_otp_test_tree" model="ir.ui.view">
+        <field name="name">twilio.otp.test.tree</field>
+        <field name="model">twilio.test</field>
+        <field name="arch" type="xml">
+            <tree>
+            <field name="test_phone_number"/>
+            <field name="test_message" readonly="1"/>
+            </tree>
+        </field>
+    </record>
+    <record id="action_twilio_otp_test" model="ir.actions.act_window">
+        <field name="name">Twilio OTP Test Connection</field>
+        <field name="res_model">twilio.test</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem id="menu_twilio_otp_test"
+              name="Twilio OTP Test Connection"
+              action="action_twilio_otp_test"
+              parent="menu_twilio_otp_test_root"
+    />
+
+</odoo>
