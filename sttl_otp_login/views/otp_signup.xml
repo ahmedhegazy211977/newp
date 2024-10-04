@@ -4,7 +4,7 @@
         <template id="fields" inherit_id="auth_signup.fields" >
             <xpath expr="//input[@name='login']" position="after">
                 <label for="mobile">رقم الهاتف</label>
-                <input type="text" name="mobile" id="mobile" class="form-control form-control-sm" autofocus="autofocus" autocapitalize="off" required="required"/>
+                <input type="text" name="mobile" id="mobile" placeholder="05" class="form-control form-control-sm" autofocus="autofocus" autocapitalize="off" required="required"/>
             </xpath>
         </template>
         <template inherit_id="auth_signup.signup" id="custom_otp_signup">
