@@ -1,0 +1,13 @@
+<odoo>
+  <data>
+    <record id="branch_action_id" model="ir.actions.act_window">
+      <field name="name">Branches</field>
+      <field name="res_model">mj.branch</field>
+      <field name="view_mode">tree,form</field>
+      <field name="help" type="html">
+        <p>اضف فرع جديد!</p>
+      </field>
+    </record>
+    <menuitem id="branch_menu_id" name="Branches" action="branch_action_id" parent="website_sale.menu_ecommerce_settings" sequence="91"/>
+  </data>
+</odoo>

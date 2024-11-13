@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_order_form_mj_branch_sales" model="ir.ui.view">
+        <field name="name">sale.order.view.form.inherit</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_order_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='payment_term_id']" position="after">
+                <field name="branch_id" readonly="1" force_save="1"/>
+            </xpath>
+        </field>
+    </record>
+    <!-- <record id="view_sales_order_filter_mj_branch_sales" model="ir.ui.view">
+        <field name="name">sale.order.search</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_sales_order_filter" />
+        <field name="arch" type="xml">
+            <filter name="my_sale_orders_filter" position="before">
+                <field name="branch_id" invisible="1"/>
+                <filter name="branch_id" string="Branch" context="{'group_by': 'branch_id'}" domain="[]"/>
+            </filter>
+        </field>
+    </record> -->
+
+</odoo>
